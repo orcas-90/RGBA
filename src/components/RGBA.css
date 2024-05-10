@@ -1,0 +1,30 @@
+.RGBA {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+.RGBA-range {
+    -webkit-appearance: none;
+    outline: none;
+    width: 400px;
+    height: 10px;
+    border-radius: 12px;
+    border-color: aquamarine;
+    background-color: aquamarine;
+    transition: 2s;
+
+}
+
+.RGBA-range::-webkit-slider-thumb {
+
+    -webkit-appearance: none;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-color: coral;
+    border-radius: 100%;
+
+}
